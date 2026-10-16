@@ -2,6 +2,8 @@
 
 A small Pomodoro timer that runs in the browser, served by a minimal Flask app. All the timer logic lives in the page itself (`templates/index.html`); Flask just serves it.
 
+<img src="assets/screenshot.png" alt="Pomodoro Timer showing 25:00 in Work mode, with Start/Reset buttons and Work, Short Break and Long Break mode buttons" width="600">
+
 ## Features
 
 - **Three modes:** Work (25 min), Short Break (5 min) and Long Break (15 min).
@@ -30,3 +32,4 @@ Then open http://localhost:5001.
 | `app.py` | Flask app that serves the page on port 5001 |
 | `templates/index.html` | The whole timer UI: HTML, CSS and JavaScript |
 | `requirements.txt` | Python dependencies (`flask`) |
+| `assets/screenshot.png` | Screenshot used in this README |
